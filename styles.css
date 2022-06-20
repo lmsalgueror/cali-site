@@ -1,0 +1,202 @@
+    body {
+        margin: 0;
+        text-align: center;
+        background-color: #49ADF2;
+        font-family: 'Chau Philomene One', sans-serif;
+    }
+    
+    #top-banner {
+        background-color: black;
+        color: snow;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+    
+    #banner {
+        width: 70%;
+    }
+    
+    #cali-title {
+        font-size: 500%;
+        font-family: 'Meddon', cursive;
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    
+    #subtitle {
+        font-family: 'Chau Philomene One', sans-serif;
+        text-align: center;
+        padding-right: 20px;
+        margin-top: 0;
+        padding: 10px;
+    }
+    
+    #container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #izquierdo {
+        width: 30%;
+        background-color: #F2E349;
+    }
+    
+    #localization {
+        width: 200px;
+        border-radius: 200px;
+        border: solid 6px #49ADF2;
+        margin-bottom: 0;
+    }
+    
+    #distrito {
+        width: 200px;
+    }
+    
+    #text-box {
+        width: 200px;
+        border: 2px solid #FFEC8B;
+        text-align: justify;
+        padding: 15px 10px;
+        margin-top: 0;
+    }
+    
+    #text-box-title {
+        width: 200px;
+        background-color: #FFEC8B;
+        border: 2px solid #FFEC8B;
+        margin-bottom: 0;
+        padding: 15px 10px;
+    }
+    
+    #localization:hover {
+        border: 6px solid #E349F2;
+    }
+    
+    #divisor-vert {
+        background-color: #FFEC8B;
+        width: 20px;
+    }
+    
+    #derecho {
+        width: 100%;
+        padding: 50px 10px;
+        background-color: #49ADF2;
+    }
+    
+    #actividades {
+        background-color: #49ADF2;
+        padding: 10px;
+        width: auto;
+        font-family: 'Chau Philomene One', sans-serif;
+    }
+    
+    #salsa:hover,
+    #zoo:hover,
+    #boulevard:hover,
+    #cristo:hover,
+    #cholado:hover,
+    #empanadas:hover,
+    #marranitas:hover,
+    #lulada:hover,
+    #sancocho:hover,
+    #mapa-turista:hover {
+        border: 4px solid #E349F2;
+    }
+    
+    #gastro {
+        background-color: #49ADF2;
+        padding: 10px;
+    }
+    
+    #sitios {
+        padding: 40px 30px;
+        margin: 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    #info-turista {
+        background-color: #F2E349;
+    }
+    
+    #mapaytit {
+        padding-left: 15px;
+    }
+    
+    #mapa-turista {
+        width: 70%;
+        height: 60%;
+        border-radius: 20px;
+        border: 4px solid #F2E349;
+    }
+    
+    #tit-map {
+        text-align: center;
+    }
+    
+    #texto-sitios {
+        padding: 0 30px;
+    }
+    
+    #titu-sitios {
+        width: 300px;
+        height: 50px;
+        background-color: #F2E349;
+        border: 3px solid #F2E349;
+        margin-bottom: 0;
+    }
+    
+    #sitios-box {
+        width: 280px;
+        background-color: #FFEC8B;
+        border: 3px solid #F2E349;
+        text-align: justify;
+        padding: 15px 10px;
+        margin-top: 0;
+    }
+    
+    .divisor-hor {
+        background-color: #FFEC8B;
+        height: 15px;
+    }
+    
+    .ordenar-col {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .imagenes-act {
+        width: 200px;
+        height: 120px;
+        border-radius: 20px;
+        border: 4px solid #F2E349;
+    }
+    
+    .ordenar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .titulos-adentro {
+        font-family: 'Meddon', cursive;
+        text-align: left;
+        padding-left: 25px;
+    }
+    
+    footer {
+        padding: 10px 0;
+        font-size: small;
+        font-family: 'Chau Philomene One', sans-serif;
+        background-color: #49AD;
+    }
